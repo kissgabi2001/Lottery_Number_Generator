@@ -65,7 +65,7 @@ namespace Lottery_Number_Generator
                     Hatoslotto hatoslotto = new Hatoslotto();
                     break;
                 case 3:
-                    //Scandinavian();
+                    ScandinavianLottery scandinavian = new ScandinavianLottery();
                     break;
                 case 4:
                     //Eurojackpot();
