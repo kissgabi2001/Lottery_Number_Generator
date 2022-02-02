@@ -15,6 +15,10 @@ namespace Lottery_Number_Generator
 
         private void Menu()
         {
+            Console.Clear();
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.White;
             string text = "Lottery Number Generator";
             Console.WriteLine(String.Format("{0," + ((Console.WindowWidth / 2) + (text.Length / 2)) + "}", text));
             Console.WriteLine("\nThis program generates random numbers to all the lottery types people plays in Hungary.\n" +
@@ -55,7 +59,7 @@ namespace Lottery_Number_Generator
             switch (number)
             {
                 case 1:
-                    //Otoslotto();
+                    Otoslotto otoslotto = new Otoslotto();
                     break;
                 case 2:
                     //Hatoslotto();
@@ -73,7 +77,8 @@ namespace Lottery_Number_Generator
                     //Keno();
                     break;
                 default:
-                    Menu();
+                    Console.WriteLine("Good luck! :)\n");
+                    Environment.Exit(0);
                     break;
             }
         }
