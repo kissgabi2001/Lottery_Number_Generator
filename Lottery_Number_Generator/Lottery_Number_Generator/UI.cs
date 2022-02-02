@@ -62,7 +62,7 @@ namespace Lottery_Number_Generator
                     Otoslotto otoslotto = new Otoslotto();
                     break;
                 case 2:
-                    //Hatoslotto();
+                    Hatoslotto hatoslotto = new Hatoslotto();
                     break;
                 case 3:
                     //Scandinavian();
