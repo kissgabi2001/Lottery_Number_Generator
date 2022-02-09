@@ -68,10 +68,10 @@ namespace Lottery_Number_Generator
                     ScandinavianLottery scandinavian = new ScandinavianLottery();
                     break;
                 case 4:
-                    //Eurojackpot();
+                    Eurojackpot eurojackpot = new Eurojackpot();
                     break;
                 case 5:
-                    //Luxor();
+                    Luxor luxor = new Luxor();
                     break;
                 case 6:
                     //Keno();

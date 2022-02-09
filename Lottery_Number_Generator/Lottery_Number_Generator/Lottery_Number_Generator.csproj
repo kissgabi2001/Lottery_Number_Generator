@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Eurojackpot.cs" />
     <Compile Include="Hatoslotto.cs" />
+    <Compile Include="Luxor.cs" />
     <Compile Include="Otoslotto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
