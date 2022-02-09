@@ -74,7 +74,7 @@ namespace Lottery_Number_Generator
                     Luxor luxor = new Luxor();
                     break;
                 case 6:
-                    //Keno();
+                    Keno keno = new Keno();
                     break;
                 default:
                     Console.WriteLine("Good luck! :)\n");

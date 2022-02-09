@@ -25,7 +25,7 @@ namespace Lottery_Number_Generator
             Console.WriteLine(String.Format("{0," + ((Console.WindowWidth / 2) + (text.Length / 2)) + "}", text));
             string t = "If you want to know more about the game, choose an option!";
 
-            Console.Write("\nYour numbers to the 10 number played game:\t\t");
+            Console.Write("\nYour numbers to the 10 number played game:\t");
             int[] numbersTen = RandomNumbersTen();
             Array.Sort(numbersTen);
             for (int i = 0; i < numbersTen.Length; i++)
@@ -43,7 +43,7 @@ namespace Lottery_Number_Generator
             }
             Console.WriteLine();
 
-            Console.Write("\nYour numbers to the 8 number played game:\t\t");
+            Console.Write("\nYour numbers to the 8 number played game:\t");
             int[] numbersEight = RandomNumbersEight();
             Array.Sort(numbersEight);
             for (int i = 0; i < numbersEight.Length; i++)
@@ -61,7 +61,7 @@ namespace Lottery_Number_Generator
             }
             Console.WriteLine();
 
-            Console.Write("\nYour numbers to the 6 number played game:\t\t");
+            Console.Write("\nYour numbers to the 6 number played game:\t");
             int[] numbersSix = RandomNumbersSix();
             Array.Sort(numbersSix);
             for (int i = 0; i < numbersSix.Length; i++)
@@ -70,7 +70,7 @@ namespace Lottery_Number_Generator
             }
             Console.WriteLine();
 
-            Console.Write("\nYour numbers to the 5 number played game:\t\t");
+            Console.Write("\nYour numbers to the 5 number played game:\t");
             int[] numbersFive = RandomNumbersFive();
             Array.Sort(numbersFive);
             for (int i = 0; i < numbersFive.Length; i++)
@@ -79,7 +79,7 @@ namespace Lottery_Number_Generator
             }
             Console.WriteLine();
 
-            Console.Write("\nYour numbers to the 4 number played game:\t\t");
+            Console.Write("\nYour numbers to the 4 number played game:\t");
             int[] numbersFour = RandomNumbersFour();
             Array.Sort(numbersFour);
             for (int i = 0; i < numbersFour.Length; i++)
@@ -88,7 +88,7 @@ namespace Lottery_Number_Generator
             }
             Console.WriteLine();
 
-            Console.Write("\nYour numbers to the 3 number played game:\t\t");
+            Console.Write("\nYour numbers to the 3 number played game:\t");
             int[] numbersThree = RandomNumbersThree();
             Array.Sort(numbersThree);
             for (int i = 0; i < numbersThree.Length; i++)
@@ -97,7 +97,7 @@ namespace Lottery_Number_Generator
             }
             Console.WriteLine();
 
-            Console.Write("\nYour numbers to the 2 number played game:\t\t");
+            Console.Write("\nYour numbers to the 2 number played game:\t");
             int[] numbersTwo = RandomNumbersTwo();
             Array.Sort(numbersTwo);
             for (int i = 0; i < numbersTwo.Length; i++)
@@ -106,7 +106,7 @@ namespace Lottery_Number_Generator
             }
             Console.WriteLine();
 
-            Console.Write("\nYour numbers to the 1 number played game:\t\t");
+            Console.Write("\nYour numbers to the 1 number played game:\t");
             int[] numbersOne = RandomNumbersOne();
             Array.Sort(numbersOne);
             for (int i = 0; i < numbersOne.Length; i++)
@@ -419,7 +419,7 @@ namespace Lottery_Number_Generator
 
         private int RandomNumberGenerator()
         {
-            return r.Next(1, 16);
+            return r.Next(1, 81);
         }
     }
 }

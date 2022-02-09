@@ -21,7 +21,7 @@ namespace Lottery_Number_Generator
             Console.BackgroundColor = ConsoleColor.DarkYellow;
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.White;
-            string text = "Scandinavian Lottery";
+            string text = "Eurojackpot";
             Console.WriteLine(String.Format("{0," + ((Console.WindowWidth / 2) + (text.Length / 2)) + "}", text));
             string t = "If you want to know more about the game, choose an option!";
 
@@ -50,7 +50,7 @@ namespace Lottery_Number_Generator
             Console.Write("\n");
 
             Console.WriteLine(t + "\n" +
-                "\n\t[ 1. ] What is Scandinavian Lottery?\n" +
+                "\n\t[ 1. ] What is Eurojackpot?\n" +
                 "\n\t[ 2. ] What are the rules?\n");
             Console.WriteLine("Do you want to generate new random numbers?\n" +
                 "\n\t[ 3. ] Generate new random numbers\n");
@@ -104,11 +104,12 @@ namespace Lottery_Number_Generator
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.White;
 
-            string text = "What is Scandinavian lottery?";
+            string text = "What is Eurojackpot?";
             Console.WriteLine(String.Format("{0," + ((Console.WindowWidth / 2) + (text.Length / 2)) + "}", text));
-            Console.WriteLine("The Scandinavian lottery is the seven-draw lottery.\n");
-            Console.WriteLine("Instead of the word lottery, often the word lotto is used to describe the same game.\n" +
-                "This is one of the most popular gambling games in Hungary.\n");
+            Console.WriteLine("The Eurojackpot is a little bit different than the other lotteries before.\n");
+            Console.WriteLine("Eurojackpot is a transnational European lottery.\n" +
+                "The countries participating in the lottery are: Croatia, Czech Republic, Denmark, Estonia, Finland, Germany, Hungary,\n" +
+                "Iceland, Italy, Latvia, Lithuania, Netherlands, Norway, Poland, Slovakia, Slovenia, Spain and Sweden.\n");
             Console.WriteLine("[ BACK ] - PRESS ANY KEY");
 
             int number = 0;
@@ -136,16 +137,12 @@ namespace Lottery_Number_Generator
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.White;
 
-            string text = "What are the rules of Scandinavian lottery?";
+            string text = "What are the rules of Eurojackpot?";
             Console.WriteLine(String.Format("{0," + ((Console.WindowWidth / 2) + (text.Length / 2)) + "}", text));
-            Console.WriteLine("The Scandinavian lottery is the seven-draw lottery.\n" +
-                "You have to select seven numbers out of 35.\n");
-            Console.WriteLine("You have to mark the numbered squares on a play slip,\n" +
-                "then take the play slip to a lottery retailer.\n" +
-                "The retailer enters your selection in the on-line terminal, which produces your game ticket.\n" +
-                "The ticket, not the play slip, is the official receipt and must be presented and validated in the event of a win.\n");
-            Console.WriteLine("You win the grand prize if you hit all the 7 numbers,\n" +
-                "but win 6,5 and 4 hit you still can get smaller prizes.\n");
+            Console.WriteLine("The Eurojacpot is a five plus two-number draw lottery.\n");
+            Console.WriteLine("The goal is to match 5 correct numbers out of 50 plus another 2 supplementary numbers out of ten.\n" +
+                "You have to mark 5 numbers in the field 'A' and another 2 in the field 'B'.\n" +
+                "You can get a prize when you hit total of at least 3 numbers.\n");
             Console.WriteLine("[ BACK ] - PRESS ANY KEY");
 
             int number = 0;

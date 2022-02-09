@@ -18,7 +18,7 @@ namespace Lottery_Number_Generator
         public void Lux()
         {
             Console.Clear();
-            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.BackgroundColor = ConsoleColor.Blue;
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.White;
             string text = "Luxor";
@@ -127,7 +127,7 @@ namespace Lottery_Number_Generator
         private void LuxorStory()
         {
             Console.Clear();
-            Console.BackgroundColor = ConsoleColor.DarkGreen;
+            Console.BackgroundColor = ConsoleColor.Blue;
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.White;
 
@@ -135,7 +135,7 @@ namespace Lottery_Number_Generator
             Console.WriteLine(String.Format("{0," + ((Console.WindowWidth / 2) + (text.Length / 2)) + "}", text));
             Console.WriteLine("Luxor is the 5 times four-number (totally 20 numbers) draw lottery.\n" +
                 "The numbers are in 5 clumns (1-15, 16-30, 31-45, 46-60, 61-75).\n");
-            Console.WriteLine("\nAfter you have marked 5x4 numbers,\n" +
+            Console.WriteLine("After you have marked 5x4 numbers,\n" +
                 "the computer generates a cube with your numbers and with 4 extra symbols - bonus sygns.\n");
             Console.WriteLine("[ BACK ] - PRESS ANY KEY");
 
@@ -160,7 +160,7 @@ namespace Lottery_Number_Generator
         private void LuxorRules()
         {
             Console.Clear();
-            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.BackgroundColor = ConsoleColor.Blue;
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.White;
 
@@ -173,8 +173,8 @@ namespace Lottery_Number_Generator
                 "the computer generates a cube with your numbers and with 4 extra symbols - bonus sygns.\n");
             Console.WriteLine("You can win in different ways:\n" +
                 "\t - You hit all the numbers in the middle, in the 3x3 cube.\t= Pitcure hit\n" +
-                "\t - You hit all the numbers at the edge of the cube.\t= Frame hit\n" +
-                "\t - You hit all the numbers.\n\t= Direct hit");
+                "\t - You hit all the numbers at the edge of the cube.\t\t= Frame hit\n" +
+                "\t - You hit all the numbers.\t\t\t\t\t= Direct hit\n");
             Console.WriteLine("[ BACK ] - PRESS ANY KEY");
 
             int number = 0;
